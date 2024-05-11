@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainEvent", "DomainEvent\DomainEvent.csproj", "{94590A46-90E0-4F69-8FAE-067D59B8E690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94590A46-90E0-4F69-8FAE-067D59B8E690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94590A46-90E0-4F69-8FAE-067D59B8E690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94590A46-90E0-4F69-8FAE-067D59B8E690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94590A46-90E0-4F69-8FAE-067D59B8E690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
