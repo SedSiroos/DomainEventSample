@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainEvent", "DomainEvent\DomainEvent.csproj", "{94590A46-90E0-4F69-8FAE-067D59B8E690}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyFramework", "MyFramework", "{EF0F8C5C-4AFD-412C-A63C-58774DDA7D86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{68362F3A-DA9D-432E-9243-5BDF947AA978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Domain", "..\MyFramework\Framework\Framework.Domain\Framework.Domain.csproj", "{ACAAED59-F0CF-47A1-BDD0-57F86BA8CEA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,13 @@ Global
 		{94590A46-90E0-4F69-8FAE-067D59B8E690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94590A46-90E0-4F69-8FAE-067D59B8E690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94590A46-90E0-4F69-8FAE-067D59B8E690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAAED59-F0CF-47A1-BDD0-57F86BA8CEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAAED59-F0CF-47A1-BDD0-57F86BA8CEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAAED59-F0CF-47A1-BDD0-57F86BA8CEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAAED59-F0CF-47A1-BDD0-57F86BA8CEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68362F3A-DA9D-432E-9243-5BDF947AA978} = {EF0F8C5C-4AFD-412C-A63C-58774DDA7D86}
+		{ACAAED59-F0CF-47A1-BDD0-57F86BA8CEA3} = {68362F3A-DA9D-432E-9243-5BDF947AA978}
 	EndGlobalSection
 EndGlobal
